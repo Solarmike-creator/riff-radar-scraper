@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "riff-radar-scraper",
+  "version": "1.0.0",
+  "description": "Scrape gig locations around gothenburg",
+  "main": "fetch-events.js",
+  "scripts": {
+    "start": "node fetch-events.js",
+    "dev": "node --watch fetch-events.js"
+  },
+  "keywords": ["ticketmaster", "scraper", "gothenburg"],
+  "author": "Solarmike-creator",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "@supabase/supabase-js": "^2.38.0"
+  }
+}
